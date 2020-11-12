@@ -14,16 +14,18 @@
     display: inline-block;
     width: auto;
     height: 150px;
-    background-color: blue;
+    background-color: lightblue;
     cursor: pointer;
     text-align: left;
-    cursor: pointer;
     flex-wrap: wrap;
   }
-  .grid-item:hover{
+.grid-item:hover{
     /*  border: 1px solid black;*/
     box-shadow: inset 0px 0px 0px 2px red;
     box-sizing: border-box;
-    }
+}
+.flipped{
+    background-color: blue;
+}
   
   
