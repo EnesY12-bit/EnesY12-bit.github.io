@@ -1,0 +1,29 @@
+.grid-container {
+    text-align: center;
+    display: grid;
+   /* grid-gap: 15px;*/
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-grow: unset;
+  }
+  .grid-item {
+    display: inline-block;
+    width: auto;
+    height: 150px;
+    background-color: blue;
+    cursor: pointer;
+    text-align: left;
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+  .grid-item:hover{
+    /*  border: 1px solid black;*/
+    box-shadow: inset 0px 0px 0px 2px red;
+    box-sizing: border-box;
+    }
+  
+  
