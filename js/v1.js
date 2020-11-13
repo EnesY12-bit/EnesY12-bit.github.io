@@ -7,3 +7,8 @@ for(const i of c){
     })
 }
 
+function flipCard() {
+  this.classList.toggle('flip');
+}
+
+c.forEach(c => c.addEventListener('click', flipCard));

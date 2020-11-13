@@ -20,20 +20,31 @@
     text-align: left;
     flex-wrap: wrap;
   }*/
+
 .grid-item{
 background: lightblue;
 float: left;
 height: 24vw;
 margin: 1%;
 width: 23%;
+perspective: 1000px;
+transform-style: preserve-3d;
+transition: transform .5s;
 } 
+.grid-item:active{
+  transform: scale(0.97);
+  transition: transform .2s;
+}
 .grid-item:hover{
     /*  border: 1px solid black;*/
     box-shadow: inset 0px 0px 0px 2px red;
     box-sizing: border-box;
 }
-.flipped{
-    background-color: blue;
+.flip{
+    background-color: orange;
+}
+.memory-card.flip {
+  transform: rotateY(180deg);
 }
 .page-title {
   color: #FF6D00;
