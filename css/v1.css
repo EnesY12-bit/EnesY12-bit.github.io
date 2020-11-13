@@ -1,7 +1,7 @@
-.grid-container {
+/*.grid-container {
     text-align: center;
     display: grid;
-   /* grid-gap: 15px;*/
+   /// grid-gap: 15px; ist falsch
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     grid-template-columns: auto auto auto auto;
@@ -9,8 +9,9 @@
     padding: 5px;
     flex-wrap: wrap;
     flex-grow: unset;
-  }
-  .grid-item {
+}
+*/
+/*  .grid-item {
     display: inline-block;
     width: auto;
     height: 150px;
@@ -18,7 +19,14 @@
     cursor: pointer;
     text-align: left;
     flex-wrap: wrap;
-  }
+  }*/
+.grid-item{
+background: lightblue;
+float: left;
+height: 24vw;
+margin: 1%;
+width: 23%;
+} 
 .grid-item:hover{
     /*  border: 1px solid black;*/
     box-shadow: inset 0px 0px 0px 2px red;
@@ -27,5 +35,11 @@
 .flipped{
     background-color: blue;
 }
-  
-  
+.page-title {
+  color: #FF6D00;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+  flex-wrap: wrap;
+}

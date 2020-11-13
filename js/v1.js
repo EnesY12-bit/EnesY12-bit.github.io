@@ -6,3 +6,4 @@ for(const i of c){
         console.log("klick")
     })
 }
+
