@@ -41,11 +41,12 @@ transition: transform .5s;
     box-sizing: border-box;
 }
 .flip{
-    background-color: orange;
-}
-.memory-card.flip {
+  background-color: orange;
   transform: rotateY(180deg);
+  /*backface-visibility: visible;*/
+  
 }
+
 .page-title {
   color: #FF6D00;
   font-family: 'Times New Roman', Times, serif;

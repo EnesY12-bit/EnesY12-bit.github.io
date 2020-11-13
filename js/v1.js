@@ -6,9 +6,14 @@ for(const i of c){
         console.log("klick")
     })
 }
+let hasFlippedCard = false;
+let firstCard, secondCard;
 
 function flipCard() {
   this.classList.toggle('flip');
 }
+
+
+
 
 c.forEach(c => c.addEventListener('click', flipCard));
