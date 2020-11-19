@@ -25,3 +25,11 @@ for (let index = 0; index < numberCards; index++) {
   c.addEventListener('click',flipCard)
   p.appendChild(c)
 }
+
+function flip(event){
+  if(!this.classList.contains('gefunden'))
+    open(this)
+}
+function openCard(c){
+  alert(c.innerHTML)
+}

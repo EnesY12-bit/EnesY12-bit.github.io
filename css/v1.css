@@ -57,3 +57,6 @@ transition: transform .4s;
   font-size: 3em;
   flex-wrap: wrap;
 }
+.gefunden{
+  backface-visibility: visible;
+}
