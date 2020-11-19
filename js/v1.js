@@ -20,7 +20,7 @@ const numberCards = 16
 let p = document.querySelector(' .grid-container')
 for (let index = 0; index < numberCards; index++) {
   let c = document.createElement('div')
-  c.innerHTML = index % 3 + 1
+  c.innerHTML = index + 1
   c.className = "grid-item"
   c.addEventListener('click',flipCard)
   p.appendChild(c)
