@@ -20,7 +20,9 @@
     text-align: left;
     flex-wrap: wrap;
   }*/
-
+body{
+  background-color: steelblue;
+}
 .grid-item{
 background: lightblue;
 float: left;
@@ -29,15 +31,15 @@ margin: 1%;
 width: 23%;
 perspective: 1000px;
 transform-style: preserve-3d;
-transition: transform .6s;
+transition: transform .4s;
 } 
 .grid-item:active{
   transform: scale(0.97);
-  transition: transform .3s;
+ transition: transform .2s;
 }
 .grid-item:hover{
     /*  border: 1px solid black;*/
-    box-shadow: inset 0px 0px 0px 2px red;
+    box-shadow: inset 0px 0px 0px 1px orange;
     box-sizing: border-box;
 }
 .flip{
