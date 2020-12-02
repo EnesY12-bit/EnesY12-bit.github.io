@@ -1,5 +1,6 @@
 body{
  background-color: steelblue;
+ text-align: center;
 }
 .page-title {
   color: steelblue;
@@ -8,6 +9,14 @@ body{
   text-align: center;
   font-size: 3em;
   flex-wrap: wrap;
+  text-shadow: 2px 2px  white;
+
+}
+
+@keyframes example {
+  from {background-color: steelblue;}
+  to {background-color: lightgreen;}
+
 }
 .click{
   color: steelblue;
@@ -16,12 +25,14 @@ body{
   text-align: center;
   font-size: 20px;
   flex-wrap: wrap;
+  text-shadow: 2px 2px white;
 }
 .score{
   color: steelblue;
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   text-align: center;
+  text-shadow: 2px 2px white;
   font-size: 20px;
   flex-wrap: wrap;
 }
@@ -30,37 +41,39 @@ body{
   border-radius: 20px;
 }
 .grid-item{
-background: lightblue;
-float: left;
-height: 24vw;
-margin: 1%;
-width: 23%;
-perspective: 1000px;
-transform-style: preserve-3d;
-transition: transform .4s;
-border-radius: 20px;
-text-align: center;
+  background: lightblue;
+  float: left;
+  height: 24vw; /*24*/
+  margin: 1%;
+  width: 23%; /*23%*/
+  /*perspective: 1000px;*/
+  transform-style: preserve-3d;
+  transition: transform .4s ease-in-out;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px  white;
 } 
 .grid-item:active{
   transform: scale(0.97); /*0.97*/
- transition: transform .2s;
+ transition: transform .2s ease-in-out;
 }
 .grid-item:hover{
     /*  border: 1px solid black;*/
-    box-shadow: inset 0px 0px 0px 1px orange;
+    box-shadow: inset 0px 0px 0px 1px steelblue;
     box-sizing: border-box;
 }
 .flip{
-  background-color: orange;
+  background-color: lightgreen;
   transform: rotateY(180deg);
-
+  animation-name: example;
+  animation-duration: 2s;
 }
 .flip2{
-  background-color: black;
-  transform: rotateY(180deg);
+  background-color: red;
 }
 .gefunden{
-  background-color:red;
+  visibility: hidden;
   transition: none;
   transform: none;
 }

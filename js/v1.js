@@ -3,9 +3,6 @@ let cardsWon = 0
 let scoreBoard = document.querySelector(".scoreBoard"); 
 let clickBoard = document.querySelector(".clickBoard");
 
-
-
-
 const numberCards = 16
 let openedCards = []
 let cardTypes=[]
@@ -45,15 +42,14 @@ function openCard(c){
                     ()=>{
                         openedCards.pop().classList.toggle('gefunden')
                         openedCards.pop().classList.toggle('gefunden')
-                        openendCard.pop().classList.toggle('flip2')
                     },
                     1000
                 )
-
-
-               // cardsWon += 1;
-              //  scoreBoard.innerHTML = cardsWon; 
             
+                
+               cardsWon += 1;
+               scoreBoard.innerHTML = cardsWon; 
+                
             }
             else{
                 //alert('nicht gleich')
@@ -88,4 +84,5 @@ function shuffle(arra1) {
     }
     return arra1;
 }
+
 
