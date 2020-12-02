@@ -9,6 +9,8 @@ body{
   font-size: 3em;
   flex-wrap: wrap;
   text-shadow: 2px 2px  white;
+  box-shadow: 2px 2px 5px 5px  red;
+  border-radius: 20px;
 
 }
 
@@ -25,6 +27,7 @@ body{
   font-size: 20px;
   flex-wrap: wrap;
   text-shadow: 2px 2px white;
+
 }
 .score{
   color: steelblue;
@@ -57,7 +60,7 @@ body{
   transition: transform .4s ease-in-out;
   border-radius: 20px;
   font-size: 20px;
-  box-shadow: 2px 2px 5px  white;
+  box-shadow: 3px 2px 4px  red;
   text-align: center;
   font-weight: normal;
 } 
