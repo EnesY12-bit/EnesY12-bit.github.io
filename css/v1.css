@@ -64,7 +64,8 @@ body{
   text-align: center;
   font-weight: normal;
   color: lightblue; 
-  line-height: 125px;  
+  line-height: 125px;
+  text-transform: none;  
 } 
 .grid-item:active{
   transform: scale(0.97); /*0.97*/
@@ -72,7 +73,7 @@ body{
 }
 .grid-item:hover{
     /*  border: 1px solid black;*/
-    box-shadow: inset 0px 0px 0px 1px steelblue;
+    box-shadow: inset 0px 0px 0px 1px lightgrey;
     box-sizing: border-box;
 }
 .flip{
