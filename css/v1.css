@@ -42,7 +42,6 @@ body{
 .grid-page{
   background:lightblue ;
   border-radius: 20px;
-  
 }
 .grid-item{
   background: lightblue;
@@ -59,8 +58,6 @@ body{
   text-align: center;
   font-weight: normal;
   color: lightblue;
- 
-
 } 
 .grid-item:active{
   transform: scale(0.97); /*0.97*/
