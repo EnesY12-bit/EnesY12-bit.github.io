@@ -35,7 +35,7 @@ function openCard(c){
    if(openedCards.length<2){
         c.classList.toggle('flip')
         openedCards.push(c)
-        if(openedCards.length == 2){
+        if(openedCards.length <= 2){
             if(openedCards[0].type == openedCards[1].type){
                 //alert('gleich')
                 window.setTimeout(
