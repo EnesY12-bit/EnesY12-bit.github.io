@@ -1,5 +1,5 @@
 body{
- background-color: steelblue;
+ background-color: lightslategrey;
 }
 .page-title {
   color: steelblue;
@@ -9,7 +9,7 @@ body{
   font-size: 3em;
   flex-wrap: wrap;
   text-shadow: 2px 2px  white;
-  box-shadow: 2px 2px 5px 5px  red;
+  box-shadow: 2px 2px 5px 5px white;
   border-radius: 20px;
 
 }
@@ -43,6 +43,12 @@ body{
   background:lightblue ;
   border-radius: 20px;
 }
+.grid-page-under{
+  margin-top: 20px;
+  background: lightblue;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px white;
+}
 .grid-item{
   background: lightblue;
   float: left;
@@ -54,10 +60,11 @@ body{
   transition: transform .4s ease-in-out;
   border-radius: 20px;
   font-size: 20px;
-  box-shadow: 3px 2px 4px  red;
+  box-shadow: 3px 2px 4px white;
   text-align: center;
   font-weight: normal;
-  color: lightblue;
+  color: lightblue; 
+  line-height: 125px;  
 } 
 .grid-item:active{
   transform: scale(0.97); /*0.97*/
@@ -70,10 +77,14 @@ body{
 }
 .flip{
   background-color: lightgreen;
-  transform: rotateY(180deg);
+  /*transform: rotateY(180deg);*/
+  transform: rotateY(360deg);
   animation-name: example;
   animation-duration: 2s;
   color: black;
+  text-shadow: 2px 2px  white;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 .gefunden{
   visibility: hidden;
