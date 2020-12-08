@@ -1,5 +1,5 @@
 body{
- background-color: lightslategrey;
+ background-color:#5698E8;
 }
 .page-title {
   color: steelblue;
@@ -45,9 +45,9 @@ body{
 }
 .grid-page-under{
   margin-top: 20px;
-  background: lightblue;
-  border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px white;
+  background:#5698E8;
+  /*border-radius: 20px;*/
+ /* box-shadow: 2px 2px 2px 2px white;*/
 }
 .grid-item{
   background: lightblue;
@@ -64,7 +64,7 @@ body{
   text-align: center;
   font-weight: normal;
   color: lightblue; 
-  line-height: 125px;
+  line-height: 4;
   text-transform: none;  
 } 
 .grid-item:active{
