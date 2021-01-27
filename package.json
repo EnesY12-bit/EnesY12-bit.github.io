@@ -1,0 +1,23 @@
+{
+  "name": "enesy12-bit.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnesY12-bit/EnesY12-bit.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnesY12-bit/EnesY12-bit.github.io/issues"
+  },
+  "homepage": "https://github.com/EnesY12-bit/EnesY12-bit.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+     
+  }
+}
